@@ -2,9 +2,11 @@
   "compilerOptions": {
     "module": "commonjs",
     "target": "ES2015",
+    "types": ["cypress"],
     "outDir": "dist",
-    "sourceMap": true,
-    "esModuleInterop": true
+    "sourceMap": false,
+    "esModuleInterop": true,
+    "inlineSourceMap": false
   },
   "include": ["src/**/*.ts"]
 }
