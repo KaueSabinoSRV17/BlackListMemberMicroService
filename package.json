@@ -1,0 +1,16 @@
+{
+  "name": "black_list_member_micro_service",
+  "version": "1.0.0",
+  "description": "MIcroservice that gets a Member of the Black List Alternative Rock Band",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.2"
+  }
+}
