@@ -6,10 +6,8 @@ COPY package* /app/
 
 RUN npm install
 
-RUN npm install typescript -G
-
 COPY . /app/
 
-RUN tsc 
+RUN npm run build
 
-ENTRYPOINT [ "npm", "start" ]
+ENTRYPOINT [ "npm", "run", "start" ]
