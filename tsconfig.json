@@ -2,7 +2,6 @@
   "compilerOptions": {
     "module": "commonjs",
     "target": "ES2015",
-    "types": ["cypress"],
     "outDir": "dist",
     "sourceMap": false,
     "esModuleInterop": true,
