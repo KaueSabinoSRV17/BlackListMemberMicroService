@@ -5,19 +5,12 @@
   "main": "index.js",
   "scripts": {
     "build": "npx tsc",
-    "test": "vitest",
-    "e2e": "cypress open --config-file tsconfig.cypress.json"
+    "test": "vitest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/mocha": "^10.0.1",
-    "cypress": "^12.8.1",
-    "typescript": "^5.0.2",
-    "vitest": "^0.29.3"
-  },
-  "dependencies": {
-    "fastify": "^4.14.1"
+    "typescript": "^5.0.2"
   }
 }
