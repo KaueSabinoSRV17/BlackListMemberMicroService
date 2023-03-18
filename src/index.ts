@@ -3,6 +3,11 @@ import fastify, { FastifyRequest, FastifyReply } from 'fastify';
 const server = fastify();
 
 server.get('/members', async (request: FastifyRequest, reply: FastifyReply) => {
+  reply
+    .type('application/json')
+    .status(200)
+    .send({hello: 'world'})
+  reply
   return { hello: 'world' };
 });
 
